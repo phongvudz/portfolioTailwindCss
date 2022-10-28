@@ -58,9 +58,9 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Please take a look at the projects below after a long time of
+          studying, at first I wrote all landing pages but felt it was not
+          suitable to display below.
         </p>
       </motion.div>
 

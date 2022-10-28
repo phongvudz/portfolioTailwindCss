@@ -19,15 +19,15 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image.png"
+              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-tr-[50%] rounded-tl-[50%] bg-center"
+              src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/311571169_178749941408682_5829294299119209079_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rgpk5CAtKVQAX87_8Gk&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfD_3u8ICcwMyNO9JBvVyShhFYUv8sC7BfoOGZkWAs58uw&oe=636104B1"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image.png"
+            src=""
           />
         )}
       </div>
@@ -46,18 +46,17 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Jane {""}
+            Nguyen Phong{""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Esper
+              Vu
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            Im Frontend developer and looking for new job.
           </p>
         </motion.div>
 
