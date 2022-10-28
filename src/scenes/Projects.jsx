@@ -90,7 +90,6 @@ const Projects = () => {
 
           {/* ROW 3 */}
           <Project title="Project 6" />
-          <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
