@@ -16,7 +16,7 @@ const projectVariant = {
 };
 
 const Project = ({ title }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+  const overlayStyles = `absolute h-[400px] w-[400px] opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
@@ -29,7 +29,11 @@ const Project = ({ title }) => {
           porttitor accumsan tincidunt.
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img
+        className="w-[400px] h-[400px] object-fill"
+        src={`../assets/${projectTitle}.jpeg`}
+        alt={projectTitle}
+      />
     </motion.div>
   );
 };
@@ -80,16 +84,16 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="AirBnb Demo" />
+          <Project title="Ecommerce Reactjs" />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Ecommerce Nextjs" />
+          <Project title="Read Code" />
+          <Project title="Lapax" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
+          <Project title="Youtube Clone" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
